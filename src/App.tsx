@@ -187,7 +187,11 @@ function HomePage() {
           <p className="hero-caption">Imagine · make · share safely</p>
         </div>
       </section>
-      <ContributionWeekEmbed site="khadijadaughter" />
+      <ContributionWeekEmbed
+        site="khadijadaughter"
+        repository="KhadijaDaughter/KhadijaDaughter.github.io"
+        branch="main"
+      />
       {isAvatarOpen && (
         <div
           className="avatar-lightbox"
